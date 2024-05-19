@@ -1,0 +1,622 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Kay Pho Du', serif; */
+
+body{
+    width: 100vw;
+}
+
+/* Hero section code */
+#hero{
+    height: 100vh;
+    background-image: url("Images/herobc_desktop.JPG");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kay Pho Du', serif; 
+}
+
+#hero h4{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+#hero h1{
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+#hero p{
+    font-size: 1.5em;
+}
+
+#hero h5{
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#countdown{
+    margin-top: 1em;
+    color: black;
+}
+
+#countdown span{
+    font-family: 'Kay Pho Du', serif; 
+    font-weight: 900;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2em;
+}
+
+#hero h3{
+    padding-top: 0.5em;
+   line-height: 25px;
+    font-size: 1.5em;
+    color: white;
+    word-spacing: 20px;
+}
+/* Hero section ends here */
+
+
+
+
+/* Story section starts here */
+#story{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kay Pho Du', serif;
+    padding-top: 2em;
+    line-height: 60px;
+    background-color: #F9F1F0;
+    background-image: url("Images/storybc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#story h3{
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.firstmeet h4,.engagement h4{
+    font-size: 1.5em;
+}
+
+.firstmeet h5,.engagement h5{
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.info img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.info p{
+    text-align: justify;
+    margin-left: 2em;
+    line-height: 30px;
+}
+
+.firstmeet,.engagement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.info{
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+/* Story section ends here */
+
+
+
+
+/* Names section code starts here */
+#names{
+    font-family: 'Kay Pho Du', serif;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    background-image: url("Images/namesbc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.photo img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.prajna h2,.deekshith h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+}
+
+.prajna,.deekshith{
+    line-height: 30px;
+    text-align: center;
+}
+
+.relation{
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.prajna h4,.deekshith h4{
+    font-size: 1.5em;
+}
+
+.prajna a,.deekshith a{
+    color: black;
+    font-size: 1.5em;
+}
+
+.and{
+    font-size: 1.1em;
+}
+
+i{
+    width: 30px;
+    height: 30px;
+    margin-top: 1em;
+}
+/* Names section code ends here */
+
+
+
+
+
+/* Address section code starts here */
+#invitation{
+    background-image: url("Images/invitationbc.jpg");
+   background-position: center;
+  background-size: cover;
+    font-family: 'Kay Pho Du', serif;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 50px;
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.mehendi img,.wedding img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#invitation h2{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+#invitation h4{
+    font-size: 1.2em;
+}
+
+.mehendi,.wedding{
+    text-align: center;
+    border-radius: 30px;
+    max-width: 500px;
+    min-height: 500px;
+    background-color: white;
+    /* height: 480px; */
+    margin: 20px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+.mehendi h5,.wedding h5{
+    margin-top: 1em;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.mehendi p,.wedding p{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.mehendi h6,.wedding h6{
+    font-size: 1.1em;
+    line-height: 20px;
+}
+
+
+.box{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+
+.address{
+    margin: 1em;
+    font-size: 0.5em;
+    max-width: 50%;
+    line-height: 30px;
+}
+
+
+.mehendi button,.wedding button{
+    height: 30px;
+    width: 170px;
+    border: none;
+    padding: 4px;
+    font-size: 1em;
+    background: transparent;
+    font-family: 'Kay Pho Du', serif;
+    margin-bottom: 2em;
+}
+
+#openImageBtn{
+    width: 140px;
+    height: 40px;
+    border: 2px solid black;
+    font-weight: 600;
+    background: transparent;
+    font-family: 'Kay Pho Du', serif;
+}
+
+#openImageBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Style for the modal content (the image) */
+  .modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* Style for the close button */
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+  }
+/* Address section code ends here */
+
+
+
+
+/* Expecting section code starts here */
+#expecting{
+    padding: 2em;
+    min-height: 250px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#expecting img{
+    margin-top: 1em;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+/* Expecting section code ends here */
+
+
+
+
+/* Footer code starts here */
+#footer{
+    padding: 1em;
+    background-color: #D0D3D0;
+    min-height: 100px;
+    font-family: 'Kay Pho Du', serif;
+    font-size: 1.4em;
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer p{
+    font-size: 0.7em;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.contact i{
+    margin-bottom: 0.6em;
+}
+
+.icons a{
+    color: black;
+}
+
+.contact p{
+    margin-left: 1em;
+}
+/* Footer code ends here */
+
+
+
+
+
+/* Memories Section code starts here */
+#memories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+#memories h2{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+.scroller{
+    max-width: 100%;
+}
+
+
+.scroller[data-animated="true"]{
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg,
+                                transparent,
+                                white 20%,
+                                white 80%,
+                                transparent);
+    mask: linear-gradient(90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent);
+}
+
+
+
+.scroller[data-animated="true"] .inner_scroller{
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll 
+                var(--animation-duration,40s) 
+                var(--_animation-direction,forwards)
+                linear 
+                infinite;
+}
+
+
+
+.inner_scroller{
+    display: flex;
+    gap: 1em;
+    padding-block: 2em;
+}
+
+
+.inner_scroller img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@keyframes scroll{
+    to{
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+.test{
+    background-color: red !important;
+}
+
+
+.scroller[data-direction="right"]{
+    --_animation-direction: reverse;
+}
+
+
+.scroller[data-direction="left"]{
+    --_animation-direction: forwards;
+}
+/* Memories Section code ends here */
+
+
+
+
+
+
+@media (max-width:400px) {
+    #hero h4{
+        margin-top: 2.5em;
+        font-size: 1.3em !important;
+        max-width: 98%;
+        line-height: 20px;
+    }
+    #hero h1{
+        max-width: 45%;
+        text-align: center;
+        font-size: 2.7em !important;
+    }
+    #hero p{
+        font-size: 1em !important;
+    }
+    #hero h5{
+       line-height: 10px;
+        font-size: 1.7em !important;
+    }
+    #hero h3{
+        font-size: 1em !important;
+    }
+    /* #countdown{
+        padding-top: 13em !important;
+    } */
+    
+    #hero h3{
+       justify-self:  baseline;
+    }
+    #story h3{
+        font-size: 2.7em;
+    }
+    #memories h2,#invitation h2{
+        font-size: 2.7em ;
+    }
+    .info p{
+        width: 98%;
+        margin: 0;
+    }
+    .address{
+        max-width: 80%;
+    }
+}
+
+/* 
+
+@media (min-width:350px) and (max-width:400px){
+    #countdown{
+        padding-top: 18em !important;
+    }
+} */
+
+
+@media (max-width:650px){
+    #hero h4{
+        font-size: 1.8em;
+    }
+    #hero h1{
+        max-width: 90%;
+        text-align: center;
+        font-size: 4em;
+    }
+    #hero p{
+        font-size: 1.5em;
+    }
+    #hero h5{
+        font-size: 1.4em;
+    }
+    #countdown{
+       padding-top: 1.5em;
+    }
+    #expecting{
+        font-size: 2em;
+        width: 95%;
+        text-align: center;
+    }
+}
+
+@media (max-width:900px){
+    #hero{
+        justify-content: flex-start;
+        padding-top: 1em;
+        background-image: url("Images/herobc_mobile.JPG");
+    }
+    /* #countdown{
+        padding-top: 13em ;
+    } */
+    .info{
+        flex-direction: column;
+        max-width: 80%;
+    }
+    .info img{
+        margin-bottom: 2em;
+    }
+    #names{
+        flex-direction: column;
+    }
+    .prajna,.deekshith{
+        margin-top: 2em;
+    }
+    .container{
+        flex-direction: column;
+    }
+    
+    .scroller{
+        max-width: 90%;
+    }
+    
+    .inner_scroller img{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+
+
+
+  
+
